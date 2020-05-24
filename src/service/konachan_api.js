@@ -25,15 +25,12 @@ const getFile = function(url){
 }
 
 app.post('/download' , jsonParser , async function(req , res){
-    console.log(req.body.mp3Url)
     getFile(req.body.mp3Url).then((blob) =>{
-        console.log(blob)
         res.send(blob)
     })
 })
 
 app.post('/tags' , jsonParser , async function(req , res){
-    console.log(req.body.tagname)
     await request('https://konachan.com/tag.json?name=' + req.body.tagname , function(error , body){
         if(!error && res.statusCode == 200){
             res.send(body)
@@ -61,7 +58,6 @@ app.post('/picList' , jsonParser , async function(req , res){
     })
 })
 
-// ===== 启动监听 =====
-app.listen(9997 , function(){ // 监听在3000端口
+app.listen(9997 , function(){
     console.log('ok')
 })
