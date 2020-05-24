@@ -4,6 +4,6 @@
 * 本作品用于交流学习，感谢k站开放接口，请大家多多支持原站
 
 ## 项目结构
-* src-utils 公共方法封装
-* src-components 主要组件
-* src-service 服务端
+* `src-utils` 公共方法
+* `src-components` 主要组件
+* `src-service` 服务端
