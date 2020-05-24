@@ -1,0 +1,132 @@
+@import '~antd/dist/antd.css';
+
+#components-layout-demo-fixed{
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 24px 16px 0;
+  color: rgb(86, 86, 255);
+}
+
+.ant-layout-header{
+    padding: 0 10px !important;
+}
+
+.site-layout .site-layout-background{
+    background: #fff;
+    min-height: 100vh !important;
+}
+
+.logo{
+    width: 120px;
+    height: 50px;
+    margin-top: 14px;
+    margin-left: 16px;
+    float: left;
+    text-align: center;
+    line-height: 36px;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.btn{
+    float: right;
+    height: 48px;
+    width: 48px;
+    border-radius: 48px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.btns{
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.item_btn:first-child{
+    width: 48%;
+    height: 30px;
+    margin-right: 1%;
+    border-radius: 30px;
+}
+
+.item_btn:last-child{
+    width: 48%;
+    height: 30px;
+    margin-left: 1%;
+    border-radius: 30px;
+}
+
+.item_switch{
+    transform: scale(1.5);
+    float: right;
+    margin-top: 22px;
+    margin-right: 30px;
+}
+
+.img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.menu{
+    position: absolute;
+    left: 2.5%;
+    top: -3px;
+    width: 95%;
+    border: 0.5px solid rgb(241, 241, 241);
+    border-top: none;
+    max-height: 250px;
+    overflow-y: scroll;
+}
+
+.menu2{
+    position: absolute;
+    left: 2.5%;
+    top: -3px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    border: 0.5px solid rgb(243, 243, 243);
+    border-top: none;
+}
+
+.ant-dropdown{
+    z-index: 1 !important;
+}
+
+.loadingPage{
+    height: 80vh;
+}
+
+.loading_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(86, 86, 255);
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.loading_div_icon{
+    margin-top: 200px;
+}
+
+.loading{
+    color: rgb(86, 86, 255);
+    transform: scale(2);
+}
+
+.loadingMore{
+    color: rgb(86, 86, 255);
+    transform: scale(3);
+    height: 50px;
+}
